@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTIT HUB</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #ff0000;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .button-grid a {
+            text-decoration: none;
+        }
+
+        .button-grid button {
+            background-color: white;
+            color: #ff0000;
+            padding: 15px;
+            border: 2px solid #ff0000;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 24px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button-grid button img {
+            width: 50px;
+            /* Adjust the size as needed */
+            height: 50px;
+            /* Adjust the size as needed */
+            margin-bottom: 10px;
+        }
+
+        .button-grid button:hover {
+            background-color: #f0f0f0;
+            border-color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>PTIT HUB</h1>
+    </div>
+
+    <div class="content">
+        <div class="button-grid">
+            <a href="https://code.ptit.edu.vn/" target="_blank" rel="noopener noreferrer"><button><img
+                        src="asset/CodePtit.png" alt="CodePtit">Code Ptit</button></a>
+            <a href="https://lms.ptit.edu.vn/" target="_blank" rel="noopener noreferrer"><button><img
+                        src="asset/LMS.png" alt="LMS">LMS</button></a>
+            <a href="https://gradeptit.web.app/" target="_blank" rel="noopener noreferrer"><button><img
+                        src="asset/GradePtit.png" alt="GradePtit">Grade Ptit</button></a>
+            <a href="https://qldt.ptit.edu.vn/" target="_blank" rel="noopener noreferrer"><button><img
+                        src="asset/QLDT.png" alt="QLDT">Quản lý đào tạo</button></a>
+            <a href="https://slink.ptit.edu.vn/" target="_blank" rel="noopener noreferrer"><button><img
+                        src="asset/logo.png" alt="SLink">SLink</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
